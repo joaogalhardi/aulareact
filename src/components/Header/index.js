@@ -1,14 +1,13 @@
-import P from 'prop-types';
+import { Link } from 'react-router-dom';
 import * as S from './styles';
 
-export default function Header({ titulo }) {
+export default function Header() {
   return (
     <S.HeaderBG>
-      <S.Titulo>TÍTULO DA PÁGINA {titulo}</S.Titulo>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="about">About</Link>
+      </nav>
     </S.HeaderBG>
   );
 }
-
-Header.propTypes = {
-  titulo: P.string,
-};
