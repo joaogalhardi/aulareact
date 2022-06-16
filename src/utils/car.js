@@ -1,6 +1,6 @@
-import palio from '../images/Fiat-Palio-Edx-1-0-Mpi-4p-20190905151820.6197110015.jpg';
-import fox from '../images/D_NQ_NP_804748-MLB41957748089_052020-O.jpg';
-import camaro from '../images/bumble.jpeg';
+import palio from '../assets/images/image1.jpg';
+import fox from '../assets/images/image2.jpg';
+import camaro from '../assets/images/bumble.jpeg';
 
 export const cars = [
   {
